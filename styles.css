@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: helvetica, arial, sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    min-width: 300px;
+
+}
+
+.nav-container {
+    display: flex;
+    max-width: 1000px;
+    background-color: rgb(211, 208, 208); 
+    list-style: none;
+    height: 50px;
+    justify-content: flex-end;
+    padding: 0%;
+    margin-top: 50px;
+}
+
+.nav-container li a {
+   transition: all 0.3s ease 0s;
+   text-decoration: none;
+   color: black;
+}
+
+.nav-container li a:hover {
+    color:rgb(43, 0, 255)
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: auto;
+    padding-left: 10px;
+    
+}
+
+.nav-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 3px;
+    padding: 3px;
+
+}
+
+.main-text {
+    
+    height: 100vh;
+    max-width: 700px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.head-shot {
+    float:left;
+    width: 135px;
+    height: 135px;
+}
+
+.title {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1 {
+    float: left;
+    font-size: 60px;
+}
+
+.icon2 {
+    float: left;
+    font-size: 60px;
+}
+
+.icon3 {
+    float: left;
+    font-size: 60px;
+}
+
